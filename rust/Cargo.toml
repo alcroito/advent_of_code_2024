@@ -1,0 +1,13 @@
+[package]
+name = "aoc2024"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+color-eyre = "0.6.3"
+itertools = "0.13.0"
+thiserror = "2.0.3"
+
+[[bin]]
+name = "day01"
+path = "src/day01.rs"
